@@ -6,6 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 public class T04_TestConcurrentHashMap {
 
+    //测试ConcurrentHashMap
     static Map<UUID, UUID> m = new ConcurrentHashMap<>();
 
     static int count = Constants.COUNT;
